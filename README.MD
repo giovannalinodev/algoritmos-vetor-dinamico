@@ -86,5 +86,17 @@ Formato esperado dos arquivos .txt gerados:
 [INFO] Elapsed time for 5 pushes front :1109
 ```
 ## 🛠️ 📈 Análise de Desempenho e Eficiência
-```
-```
+
+### Resultados dos Testes - Pop Back (pop-back.txt)
+
+| Arquivo de Teste | Elementos Removidos | Tempo Decorrido (ms) |
+|-------------------|---------------------|-----------------------|
+| e1.txt           | 998                 | 0                     |
+| e2.txt           | 1998                | 0                     |
+| e3.txt           | 4998                | 0                     |
+| e4.txt           | 9998                | 0                     |
+| e5.txt           | 49998               | 2001                  |
+| e6.txt           | 99998               | 3615                  |
+| e7.txt           | 199998              | 6695                  |
+
+
