@@ -87,7 +87,7 @@ Formato esperado dos arquivos .txt gerados:
 ```
 ## 🛠️ 📈 Análise de Desempenho e Eficiência
 
-### Resultados dos Testes - Pop Back (pop-back.txt)
+### Resultados dos Testes - Pop Back ([pop-back.txt](desempenho/+100/pop-back.txt))
 
 | Arquivo de Teste | Elementos Removidos | Tempo Decorrido (ms) |
 |-------------------|---------------------|-----------------------|
