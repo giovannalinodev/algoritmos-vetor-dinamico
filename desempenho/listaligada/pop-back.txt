@@ -1,0 +1,20 @@
+$ ./test-popback-linked-list < tests/pop/e1.txt
+[INFO] Elapsed time for 1000 pops back :0
+
+$ ./test-popback-linked-list < tests/pop/e2.txt
+[INFO] Elapsed time for 2000 pops back :0
+
+$ ./test-popback-linked-list < tests/pop/e3.txt
+[INFO] Elapsed time for 5000 pops back :0
+
+$ ./test-popback-linked-list < tests/pop/e4.txt
+[INFO] Elapsed time for 10000 pops back :0
+
+$ ./test-popback-linked-list < tests/pop/e5.txt
+[INFO] Elapsed time for 50000 pops back :1000000
+
+$ ./test-popback-linked-list < tests/pop/e6.txt
+[INFO] Elapsed time for 100000 pops back :1916000
+
+$ ./test-popback-linked-list < tests/pop/e7.txt
+[INFO] Elapsed time for 200000 pops back :7019000

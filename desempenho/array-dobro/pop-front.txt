@@ -1,0 +1,27 @@
+$ ./test-popback-array-list < tests/pop/e1.txt
+[INFO] Elapsed time for 998 remove_at success : 0
+998
+
+$ ./test-popback-array-list < tests/pop/e2.txt
+[INFO] Elapsed time for 1998 remove_at success : 0
+1998
+
+$ ./test-popback-array-list < tests/pop/e3.txt
+[INFO] Elapsed time for 4998 remove_at success : 0
+4998
+
+$ ./test-popback-array-list < tests/pop/e4.txt
+[INFO] Elapsed time for 9998 remove_at success : 0
+9998
+
+$ ./test-popback-array-list < tests/pop/e5.txt
+[INFO] Elapsed time for 49998 remove_at success : 1992000
+49998
+
+$ ./test-popback-array-list < tests/pop/e6.txt
+[INFO] Elapsed time for 99998 remove_at success : 2996000
+99998
+
+$ ./test-popback-array-list < tests/pop/e7.txt
+[INFO] Elapsed time for 199998 remove_at success : 5685000
+199998

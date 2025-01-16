@@ -1,0 +1,32 @@
+$ ./test-pushback-array-list< tests/push/e1.txt
+[INFO] Elapsed time for 5 pushes front :0
+
+$ ./test-pushback-array-list< tests/push/e2.txt
+[INFO] Elapsed time for 10 pushes front :0
+
+$ ./test-pushback-array-list< tests/push/e3.txt
+[INFO] Elapsed time for 1000 pushes front :998000
+
+$ ./test-pushback-array-list< tests/push/e4.txt
+[INFO] Elapsed time for 2000 pushes front :1999000
+
+$ ./test-pushback-array-list< tests/push/e5.txt
+[INFO] Elapsed time for 3000 pushes front :2106000
+
+$ ./test-pushback-array-list< tests/push/e6.txt
+[INFO] Elapsed time for 5000 pushes front :2999000
+
+$ ./test-pushback-array-list< tests/push/e7.txt
+[INFO] Elapsed time for 10000 pushes front :9169000
+
+$ ./test-pushback-array-list< tests/push/e8.txt
+[INFO] Elapsed time for 25000 pushes front :22856000
+
+$ ./test-pushback-array-list< tests/push/e9.txt
+[INFO] Elapsed time for 50000 pushes front :43338000
+
+$ ./test-pushback-array-list< tests/push/e10.txt
+[INFO] Elapsed time for 100000 pushes front :91996000
+
+$ ./test-pushback-array-list< tests/push/e11.txt
+[INFO] Elapsed time for 200000 pushes front :231153000

@@ -1,0 +1,27 @@
+$ ./test-popfront-array-list < tests/pop/e1.txt
+[INFO] Elapsed time for 998 remove_at success : 1038000
+998
+
+$ ./test-popfront-array-list < tests/pop/e2.txt
+[INFO] Elapsed time for 1998 remove_at success : 5228000
+1998
+
+$ ./test-popfront-array-list < tests/pop/e3.txt
+[INFO] Elapsed time for 4998 remove_at success : 33183000
+4998
+
+$ ./test-popfront-array-list < tests/pop/e4.txt
+[INFO] Elapsed time for 9998 remove_at success : 126352000
+9998
+
+$ ./test-popfront-array-list < tests/pop/e5.txt
+[INFO] Elapsed time for 49998 remove_at success : 2932542000
+49998
+
+$ ./test-popfront-array-list < tests/pop/e6.txt
+[INFO] Elapsed time for 99998 remove_at success : 10957262000
+99998
+
+$ ./test-popfront-array-list < tests/pop/e7.txt
+[INFO] Elapsed time for 199998 remove_at success : 43403459000
+199998

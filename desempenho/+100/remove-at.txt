@@ -1,0 +1,11 @@
+$ ./test-removeat-array-list-01 < tests/remove_at/e1.txt
+[DEBUG] Tried to remove 10 element(s)
+[DEBUG] removed 10 element(s)
+[DEBUG] not removed 0 element(s)
+[INFO] Elapsed time for 10 remove_at success : 0
+
+$ ./test-removeat-array-list-01 < tests/remove_at/e2.txt
+[DEBUG] Tried to remove 10 element(s)
+[DEBUG] removed 8 element(s)
+[DEBUG] not removed 2 element(s)
+[INFO] Elapsed time for 8 remove_at success : 0

@@ -1,0 +1,27 @@
+$ ./test-popfront-linked-list < tests/pop/e1.txt
+[INFO] Elapsed time for 4199134 remove_at success : 146832000
+4199134
+
+$ ./test-popfront-linked-list < tests/pop/e2.txt
+[INFO] Elapsed time for 4199134 remove_at success : 127698000
+4199134
+
+$ ./test-popfront-linked-list < tests/pop/e3.txt
+[INFO] Elapsed time for 4199134 remove_at success : 133373000
+4199134
+
+$ ./test-popfront-linked-list < tests/pop/e4.txt
+[INFO] Elapsed time for 4199134 remove_at success : 132625000
+4199134
+
+$ ./test-popfront-linked-list < tests/pop/e5.txt
+[INFO] Elapsed time for 4199134 remove_at success : 132812000
+4199134
+
+$ ./test-popfront-linked-list < tests/pop/e6.txt
+[INFO] Elapsed time for 4199134 remove_at success : 143522000
+4199134
+
+$ ./test-popfront-linked-list < tests/pop/e7.txt
+[INFO] Elapsed time for 4199134 remove_at success : 136206000
+4199134
