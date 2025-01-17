@@ -27,6 +27,3 @@ $ ./test-pushback-array-list< tests/push/e9.txt
 
 $ ./test-pushback-array-list< tests/push/e10.txt
 [INFO] Elapsed time for 100000 pushes front :91996000
-
-$ ./test-pushback-array-list< tests/push/e11.txt
-[INFO] Elapsed time for 200000 pushes front :231153000
