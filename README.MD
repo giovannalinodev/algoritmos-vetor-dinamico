@@ -22,22 +22,31 @@ O projeto está organizado com a seguinte estrutura de diretórios e arquivos:
 
 ```
 PROJETO-VETOR-DINAMICO
+├── analise-desempenho
 ├── cpp
 │   ├── tests
+│   │   ├── pop
 │   │   ├── push
-│   │   │   ├── e1.txt
-│   │   │   ├── e2.txt
 │   │   └── remove_at
-│   │       ├── e1.txt
-│   │       └── e2.txt
 │   ├── array_list.hpp
 │   ├── linked_list.hpp
 │   ├── gera_num.cpp
+│   ├── test-popback-array-list.cpp
+│   ├── test-popback-linked-list.cpp
+│   ├── test-popfront-array-list.cpp
+│   ├── test-popfront-linked-list.cpp
+│   ├── test-pushback-array-list.cpp
+│   ├── test-pushback-linked-list.cpp
+│   ├── test-pushfront-array-list.cpp
+│   ├── test-pushfront-linked-list.cpp
 │   ├── test-pushfront-array-list-01.cpp
 │   ├── test-pushfront-linked-list-01.cpp
 │   ├── test-removeat-array-list-01.cpp
 │   ├── test-removeat-linked-list-01.cpp
-│   └── README.md
+│   ├── README.txt
+├── .gitignore
+└── README.md
+
 ```
 
 ## ⚙️ Compilação dos Arquivos
@@ -45,12 +54,25 @@ PROJETO-VETOR-DINAMICO
 g++ -Wall -o gera_num gera_num.cpp
 
 # Compilar os testes para array_list
+```
+g++ -Wall -o test-popback-array-list test-popback-array-list.cpp
+g++ -Wall -o test-popfront-array-list test-popfront-array-list.cpp
+g++ -Wall -o test-pushback-array-list test-pushback-array-list.cpp
+g++ -Wall -o test-pushfront-array-list test-pushfront-array-list.cpp
 g++ -Wall -o test-pushfront-array-list-01 test-pushfront-array-list-01.cpp
 g++ -Wall -o test-removeat-array-list-01 test-removeat-array-list-01.cpp
+```
 
 # Compilar os testes para linked_list
+```
+g++ -Wall -o test-popback-linked-list test-popback-linked-list.cpp
+g++ -Wall -o test-popfront-linked-list test-popfront-linked-list.cpp
+g++ -Wall -o test-pushback-linked-list test-pushback-linked-list.cpp
+g++ -Wall -o test-pushfront-linked-list test-pushfront-linked-list.cpp
 g++ -Wall -o test-pushfront-linked-list-01 test-pushfront-linked-list-01.cpp
 g++ -Wall -o test-removeat-linked-list-01 test-removeat-linked-list-01.cpp
+
+```
 
 ## ▶️ Execução dos Testes
 Testes de Inserção (push_front)
