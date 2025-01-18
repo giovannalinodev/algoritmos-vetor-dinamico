@@ -1,0 +1,3 @@
+# Ignorar arquivos executáveis gerados pela compilação
+*.exe
+gera_num
